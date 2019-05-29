@@ -1,0 +1,3 @@
+Why is it considered a good approach to always draw a black-box diagram when using VHDL to model digital circuits?
+
+Because it is documentation.

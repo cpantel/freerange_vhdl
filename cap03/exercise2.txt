@@ -1,0 +1,3 @@
+What is a common method of representing bundles in black-box diagrams?
+
+Using a slash with a number representing the number of signals.
