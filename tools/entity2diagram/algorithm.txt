@@ -1,0 +1,12 @@
+   // read each line until "entity"
+   // get entity name
+   // read each line until "port"
+   // read each port until :
+   // put in "in", "out" or "inout"
+   // get vector size if any
+   // until "end" entity
+   // box width = entity name length + 2
+   // box height the shortes between in.len + inout.len and out.len + inout.len
+   // render
+   // 
+
