@@ -1,0 +1,7 @@
+comprobar que en terminos de VHDL
+
+( L = '0' and M = '0' and N = '1' or L = '1' or M = '1')
+
+es igual a esto
+
+( not L and not M and N or L or M)
