@@ -1,12 +1,12 @@
-Write the VHDL code that implements a 4:1 MUX using a single conditional signal assignment statement. The inputs to the MUX are data inputs D3, D2, D1, D0 and a two-input control bus SEL. The single output is MX OUT.
+-- Write the VHDL code that implements a 4:1 MUX using a single conditional signal assignment statement. The inputs to the MUX are data inputs D3, D2, D1, D0 and a two-input control bus SEL. The single output is MX OUT.
 
-         +--------+
- D3 ---->|        |
- D2 ---->|        |
- D1 ---->| mux4_1 |---> MX_OUT
- D0 ---->|        |
-SEL -/2->|        |
-         +--------+
+--          +--------+
+--  D3 ---->|        |
+--  D2 ---->|        |
+--  D1 ---->| mux4_1 |---> MX_OUT
+--  D0 ---->|        |
+-- SEL -/2->|        |
+--          +--------+
 
 library IEEE;
 use IEEE.std_logic_1164.all;

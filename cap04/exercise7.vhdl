@@ -1,5 +1,8 @@
-Provide a VHDL model of a 3:8 decoder using conditional signal assignment and selected signal assignment; consider the decoder’s outputs to be active-low.
+-- Provide a VHDL model of a 3:8 decoder using conditional signal assignment and selected signal assignment; consider the decoder’s outputs to be active-low.
 
+--           +------+
+-- d_in -/3->| deco |-/7-> d_out
+--           +------+
 
 library IEEE;
 use IEEE.std_logic.all;

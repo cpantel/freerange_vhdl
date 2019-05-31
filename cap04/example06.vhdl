@@ -1,5 +1,4 @@
-Write the VHDL code that implements a 4:1 MUX using a single selected signal assignment statement. The inputs to the
-MUX are data inputs D3, D2, D1, D0 and a two-input control bus SEL. The single output is MX OUT.
+-- Write the VHDL code that implements a 4:1 MUX using a single selected signal assignment statement. The inputs to the MUX are data inputs D3, D2, D1, D0 and a two-input control bus SEL. The single output is MX OUT.
 
 architecture mux4_1_impl_select of mux4_1 is
 begin

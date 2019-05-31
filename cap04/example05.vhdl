@@ -1,8 +1,8 @@
-Write VHDL code to implement the function expressed by the following logic equation: 
+-- Write VHDL code to implement the function expressed by the following logic equation: 
 
-F3 = !L·!M ·N +L·M .
+-- F3 = !L·!M ·N +L·M .
 
-Use only selected signal assignment statements in your VHDL code.
+-- Use only selected signal assignment statements in your VHDL code.
 
 
 architecture my_f3_impl_selected of my_f3 is

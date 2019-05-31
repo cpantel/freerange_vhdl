@@ -1,9 +1,9 @@
-Provide a VHDL model of an 8:1 MUX using conditional signal assignment and selected signal assignment.
+-- Provide a VHDL model of an 8:1 MUX using conditional signal assignment and selected signal assignment.
 
-          +-----+
-d_in -/8->| mux |---> d_out
-sel  -/3->|     |
-          +-----+
+--           +-----+
+-- d_in -/8->| mux |---> d_out
+-- sel  -/3->|     |
+--           +-----+
 
 
 library IEEE;

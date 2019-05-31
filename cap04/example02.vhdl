@@ -1,12 +1,12 @@
-Write the VHDL code to implement the function expressed by the following logic equation: 
+-- Write the VHDL code to implement the function expressed by the following logic equation: 
 
-F3 = !L · !M · N + L · M
+-- F3 = !L · !M · N + L · M
 
-      +-------+
-L --->|       |  
-M --->| my_f3 |---> F3
-N --->|       |
-      +-------+
+--       +-------+
+-- L --->|       |  
+-- M --->| my_f3 |---> F3
+-- N --->|       |
+--       +-------+
 
 library IEEE;
 use IEEE.std_logic_1164.all;

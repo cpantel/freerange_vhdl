@@ -1,12 +1,12 @@
-Write VHDL entity declarations that describe the following black-box diagrams:
+-- Write VHDL entity declarations that describe the following black-box diagrams:
 
-a)
-            +------+
-   a_in1--->|      |
-   b_in2--->| sys1 |---> out_b
-     clk--->|      |
-ctrl_int--->|      |
-            +------+
+-- a)
+--             +------+
+--    a_in1--->|      |
+--    b_in2--->| sys1 |---> out_b
+--      clk--->|      |
+-- ctrl_int--->|      |
+--             +------+
 
 entity sys1 is
 port (
@@ -19,13 +19,13 @@ port (
 end sys1;
 
 
-b) 
-            +------+
-input_w---->|      |
- a_data-/8->| sys2 |-/8->dat_4
- b_data-/8->|      |-/3->dat_5
-    clk---->|      |
-            +------+
+-- b) 
+--             +------+
+-- input_w---->|      |
+--  a_data-/8->| sys2 |-/8->dat_4
+--  b_data-/8->|      |-/3->dat_5
+--     clk---->|      |
+--             +------+
 
 entity sys2 is
 port (

@@ -1,33 +1,33 @@
-Concurrent signal assignment
+-- Concurrent signal assignment
 
-a)
+-- a)
 
 architecture impl of spec is
 begin
   F <= not A and B or A or A and not B;
 end impl;
 
-===============================================================================
+--===============================================================================
 
-b)
+-- b)
 
 architecture impl of spec is
 begin
   F <= not A and C and not D or not B and C or B and C and not D;
 end impl;
 
-===============================================================================
+-- ===============================================================================
 
-c)
+-- c)
 
 architecture impl of spec is
 begin
   F <= (not A or B ) and (not B or C or not D) and (not A or D);
 end impl;
 
-===============================================================================
+-- ===============================================================================
 
-d)
+-- d)
 
 architecture impl of spec is
 begin
@@ -35,9 +35,9 @@ begin
        (not A or not B or C or     D ) ;
 end impl;
 
-===============================================================================
+-- ===============================================================================
 
-e)
+-- e)
 
 architecture impl of spec is
 begin
@@ -47,9 +47,9 @@ begin
        (    A or not B or     C);
 end impl;
 
-===============================================================================
+-- ===============================================================================
 
-f)
+-- f)
 
 architecture impl of spec is
 begin

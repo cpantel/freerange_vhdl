@@ -1,8 +1,8 @@
-Provide a VHDL model of an 8-input OR gate using concurrent, conditional and selected signal assignment.
+-- Provide a VHDL model of an 8-input OR gate using concurrent, conditional and selected signal assignment.
 
-          +------+
-d_in -/8->| or_e |---> d_out
-          +------+
+--           +------+
+-- d_in -/8->| or_e |---> d_out
+--           +------+
 
 
 library IEEE;

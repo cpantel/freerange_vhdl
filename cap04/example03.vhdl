@@ -1,4 +1,4 @@
-Write the VHDL code to implement the function expressed in Example 2. Use only conditional signal assignment statements in your VHDL code.
+-- Write the VHDL code to implement the function expressed in Example 2. Use only conditional signal assignment statements in your VHDL code.
 
 
 architecture my_f3_impl_conditional of my_f3 is

@@ -1,8 +1,8 @@
-Provide a VHDL model of an 8-input AND gate using concurrent, conditional and selected signal assignment.
+-- Provide a VHDL model of an 8-input AND gate using concurrent, conditional and selected signal assignment.
 
-          +-------+
-d_in -/8->| and_e |---> d_out
-          +-------+
+--           +-------+
+-- d_in -/8->| and_e |---> d_out
+--           +-------+
 
 library IEEE;
 use IEEE.std_logic.all;
