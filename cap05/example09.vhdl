@@ -6,7 +6,7 @@
 --      +-----+
 
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity fun is
 port(
@@ -17,14 +17,14 @@ end fun;
 
 architecture fun_impl_if of fun is
 begin
-   
+
    fun_box: process(A,B,C) is
    begin
-      if ( A = '1' and B = '0' and C = '0') ) then  
+      if ( A = '1' and B = '0' and C = '0') ) then
          F_OUT <= '1';
       elsif ( B = '1' and C = '1') then
          F_OUT <= '1';
-      else 
+      else
          F_OUT <= '0';
       end if;
 

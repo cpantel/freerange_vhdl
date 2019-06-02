@@ -7,7 +7,7 @@
 
 
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity mux is
 port (
@@ -19,14 +19,14 @@ end;
 
 architecture mux_cond of mux is
 begin
-  d_out <= d_in(0) when sel = "000" else 
-           d_in(1) when sel = "001" else 
-           d_in(2) when sel = "010" else 
-           d_in(3) when sel = "011" else 
-           d_in(4) when sel = "100" else 
-           d_in(5) when sel = "101" else 
-           d_in(6) when sel = "110" else 
-           d_in(7) when sel = "111" else 
+  d_out <= d_in(0) when sel = "000" else
+           d_in(1) when sel = "001" else
+           d_in(2) when sel = "010" else
+           d_in(3) when sel = "011" else
+           d_in(4) when sel = "100" else
+           d_in(5) when sel = "101" else
+           d_in(6) when sel = "110" else
+           d_in(7) when sel = "111" else
            '0' when others;
 end mux_cond;
 

@@ -5,12 +5,12 @@
 --           +------+
 
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity deco is
 port(
    d_in  : in  std_logic_vector(2 downto 0);
-   d_out : out std_logic_vector(7 downto 1);
+   d_out : out std_logic_vector(7 downto 1)
 );
 end;
 

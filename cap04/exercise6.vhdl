@@ -5,7 +5,7 @@
 --           +------+
 
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity deco is
 port(
@@ -39,5 +39,5 @@ begin
             "00100000" when "101",
             "01000000" when "110",
             "10000000" when "111",
-            "00000000" when others;   
+            "00000000" when others;
 end;

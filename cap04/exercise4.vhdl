@@ -6,7 +6,7 @@
 
 
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity or_e is
 port(

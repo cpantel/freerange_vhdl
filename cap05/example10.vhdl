@@ -1,5 +1,5 @@
 library IEEE;
-use IEEE.std_logic.all;
+use IEEE.std_logic_1164.all;
 
 entity mux is
 port(
@@ -14,7 +14,7 @@ begin
 
   mux : process (Data_in, SEL)
   begin
-    if SEL = "000" then 
+    if SEL = "000" then
        F_CTRL <= Data_in(0);
     elsif SEL = "001" then
        F_CTRL <= Data_in(1);
